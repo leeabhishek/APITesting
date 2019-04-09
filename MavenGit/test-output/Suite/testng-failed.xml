@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test.Maven.getSerachLocation">
+        <methods>
+          <include name="getSearchLocation"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- Test.Maven.getSerachLocation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
