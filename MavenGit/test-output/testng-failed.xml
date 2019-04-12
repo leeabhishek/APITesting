@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test.Maven.AddBooks">
+      <class name="Test.Maven.addAndDelete">
         <methods>
+          <include name="getData"/>
           <include name="addBook"/>
         </methods>
-      </class> <!-- Test.Maven.AddBooks -->
+      </class> <!-- Test.Maven.addAndDelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

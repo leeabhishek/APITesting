@@ -10,6 +10,20 @@ public class resources {
 		return res;
 		
 	}
+	
+	public static String getAddBookData()
+	{
+		String res="/Library/Addbook.php";
+		return res;
+	}
 
+	
+	
+	
+	public static String geteDeleteResource()
+	{
+		String res="/Library/DeleteBook.php";
+		return res;
+	}
 }
                                                                                                                                                                                                                                                                         
