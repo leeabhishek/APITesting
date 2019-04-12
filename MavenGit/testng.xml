@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+
   <test name="Test">
-    <classes>
+    <classes >
       <class name="Test.Maven.AddBooks"/>
       <class name="Test.Maven.getSerachLocation"/>
+      <class name="Test.Maven.staticJsonByJsonFile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

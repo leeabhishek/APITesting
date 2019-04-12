@@ -46,18 +46,10 @@ public class AddBooks {
 		
 		
 		Assert.assertEquals(js.get("Msg"), "successfully added");
-		Assert.assertEquals(js.get("ID"), "123456ab8465");
-		
-	}
-
-	
-	@Test
-	public void deleteBook()
-	{
-		
-		
+		//Assert.assertEquals(js.get("ID"), "123456ab8465");
 		
 	}
 	
-
+	
+	
 }

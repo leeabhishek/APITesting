@@ -5,10 +5,14 @@
     <classes>
       <class name="Test.Maven.getSerachLocation">
         <methods>
-          <include name="getSearchLocation"/>
           <include name="getData"/>
         </methods>
       </class> <!-- Test.Maven.getSerachLocation -->
+      <class name="Test.Maven.staticJsonByJsonFile">
+        <methods>
+          <include name="addBook"/>
+        </methods>
+      </class> <!-- Test.Maven.staticJsonByJsonFile -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

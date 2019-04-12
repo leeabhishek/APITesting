@@ -35,7 +35,9 @@ public class dataDriven {
 					//Identify Testcases coloum by scanning the entire 1st row
 					
 					 Iterator<Row>  rows= sheet.iterator();// sheet is collection of rows
+					
 					Row firstrow= rows.next();
+					
 					Iterator<Cell> ce=firstrow.cellIterator();//row is collection of cells
 					int k=0;
 					int coloumn = 0;
