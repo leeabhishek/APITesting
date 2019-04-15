@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2565" started-at="2019-04-12T09:59:12Z" finished-at="2019-04-12T09:59:14Z">
+  <suite name="Default suite" duration-ms="4761" started-at="2019-04-15T13:54:05Z" finished-at="2019-04-15T13:54:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2565" started-at="2019-04-12T09:59:12Z" finished-at="2019-04-12T09:59:14Z">
-      <class name="Test.Maven.addAndDelete">
-        <test-method status="PASS" signature="getData()[pri:0, instance:Test.Maven.addAndDelete@675d3402]" name="getData" is-config="true" duration-ms="0" started-at="2019-04-12T15:29:12Z" finished-at="2019-04-12T15:29:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="addBook()[pri:0, instance:Test.Maven.addAndDelete@675d3402]" name="addBook" duration-ms="2545" started-at="2019-04-12T15:29:12Z" finished-at="2019-04-12T15:29:14Z">
+    <test name="Default test" duration-ms="4761" started-at="2019-04-15T13:54:05Z" finished-at="2019-04-15T13:54:10Z">
+      <class name="Test.Maven.AddBooks">
+        <test-method status="PASS" signature="addBook()[pri:0, instance:Test.Maven.AddBooks@7c16905e]" name="addBook" duration-ms="4751" started-at="2019-04-15T19:24:05Z" finished-at="2019-04-15T19:24:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-      </class> <!-- Test.Maven.addAndDelete -->
+      </class> <!-- Test.Maven.AddBooks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

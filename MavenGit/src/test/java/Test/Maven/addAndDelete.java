@@ -45,12 +45,12 @@ public class addAndDelete {
 		JsonPath js=ReusableMethod.rawToJson(res);
 		String bookID=js.get("ID");
 		System.out.println(bookID);
-		System.out.println("---------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------");
 		
 		given().log().all().
 		body("{"+
 			 
-			"\"ID\" : \""+bookID+"\""+
+			"   \"ID\" : \""+bookID+"\""+
 			 
 			"} ").
 			when().post(resources.geteDeleteResource()).then().log().all().
