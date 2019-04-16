@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[This is Blank hat verify Method]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="926080" started-at="2018-06-29T06:24:10Z" finished-at="2018-06-29T06:39:36Z">
+    <groups>
+      <group name="productpage">
+        <method signature="Verify_Product_Page.verifyBlankHat()[pri:2, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="verifyBlankHat" class="com.whs.TestScript.Verify_Product_Page"/>
+        <method signature="Verify_Product_Page.verifyEMHat()[pri:1, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="verifyEMHat" class="com.whs.TestScript.Verify_Product_Page"/>
+      </group> <!-- productpage -->
+    </groups>
+    <test name="Test" duration-ms="926080" started-at="2018-06-29T06:24:10Z" finished-at="2018-06-29T06:39:36Z">
+      <class name="com.whs.TestScript.Verify_Home_Page">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.whs.TestScript.Verify_Home_Page@1ff8b8f]" name="home" duration-ms="578087" started-at="2018-06-29T11:59:58Z" finished-at="2018-06-29T12:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- com.whs.TestScript.Verify_Home_Page -->
+      <class name="com.whs.TestScript.Verify_Product_Page">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="openApplication" is-config="true" duration-ms="40058" started-at="2018-06-29T11:54:10Z" finished-at="2018-06-29T11:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyEMHat()[pri:1, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="verifyEMHat" duration-ms="203347" started-at="2018-06-29T11:54:50Z" finished-at="2018-06-29T11:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEMHat -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="closeApplication" is-config="true" duration-ms="12" started-at="2018-06-29T11:58:13Z" finished-at="2018-06-29T11:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="openApplication" is-config="true" duration-ms="13629" started-at="2018-06-29T11:58:13Z" finished-at="2018-06-29T11:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyBlankHat()[pri:2, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="verifyBlankHat" duration-ms="90915" started-at="2018-06-29T11:58:27Z" finished-at="2018-06-29T11:59:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Blank hat verify Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankHat -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.whs.TestScript.Verify_Product_Page@1bc6a36e]" name="closeApplication" is-config="true" duration-ms="11" started-at="2018-06-29T11:59:58Z" finished-at="2018-06-29T11:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.whs.TestScript.Verify_Product_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

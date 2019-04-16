@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="whs test automation suite">
+
+  <test name="Regression suite 1" >
+  
+  
+  
+    <classes>
+    
+      <class name="com.whs.TestScript.Verify_Home_Page"/>
+      <class name="com.whs.TestScript.Verify_Product_Page"/>
+      
+    </classes>
+    
+    
+    
+    
+    
+ </test>
+</suite>

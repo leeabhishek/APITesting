@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.whs.TestScript.Verify_Home_Page">
+        <methods>
+          <include name="home"/>
+        </methods>
+      </class> <!-- com.whs.TestScript.Verify_Home_Page -->
+      <class name="com.whs.TestScript.Verify_Product_Page">
+        <methods>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- com.whs.TestScript.Verify_Product_Page -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
