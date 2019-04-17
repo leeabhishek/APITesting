@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8488" started-at="2019-04-16T06:29:29Z" finished-at="2019-04-16T06:29:38Z">
+  <suite name="Default suite" duration-ms="10973" started-at="2019-04-17T09:07:29Z" finished-at="2019-04-17T09:07:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8488" started-at="2019-04-16T06:29:29Z" finished-at="2019-04-16T06:29:38Z">
+    <test name="Default test" duration-ms="10973" started-at="2019-04-17T09:07:29Z" finished-at="2019-04-17T09:07:40Z">
       <class name="Test.Maven.AddBooks">
-        <test-method status="PASS" signature="addBook()[pri:0, instance:Test.Maven.AddBooks@7c16905e]" name="addBook" duration-ms="8478" started-at="2019-04-16T11:59:29Z" finished-at="2019-04-16T11:59:38Z">
+        <test-method status="PASS" signature="addBook()[pri:0, instance:Test.Maven.AddBooks@7c16905e]" name="addBook" duration-ms="10957" started-at="2019-04-17T14:37:29Z" finished-at="2019-04-17T14:37:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
